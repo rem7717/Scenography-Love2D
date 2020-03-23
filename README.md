@@ -1,5 +1,5 @@
 # Scenography-Love2D
-Scenography is a library (A Lua Module) that allow to use Scene with the LÖVE framework, with other UI utilities (still in development).
+Scenography is a library (A Lua Module) that allows using Scene with the LÖVE framework, with other UI utilities (still in development).
 
 ---
 ## How to use it?
@@ -41,7 +41,7 @@ Scenography is a library (A Lua Module) that allow to use Scene with the LÖVE f
   ```
   > **notes:** The Scene's name can be anything that you want, but it should be the same as the scene folder's name and Scene file's name.
 
-4. That's it ! It should works properly in small LÖVE 2D project :thumbsup:.
+4. That's it! It should works properly in a small LÖVE 2D project :thumbsup:.
 
 ---
 
