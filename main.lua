@@ -1,17 +1,17 @@
-local Sketch = require("sketch")
+local Scenography = require("Scenography")
 
 function love.load()
-  Sketch.LoadNewScene(Sketch.SceneToRun)
-  Sketch.RunScene(Sketch.SceneToRun)
-  Sketch.ScenesLists[Sketch.SceneToRun].Load()
+  Scenography.LoadNewScene(Scenography.SceneToRun)
+  Scenography.RunScene(Scenography.SceneToRun)
 end
 
 function love.update()
   
-  Sketch.ScenesLists[Sketch.SceneToRun].Update()
+  Scenography.ScenesLists[Scenography.SceneToRun].Update()
 end
 
 function love.draw()
   
-  Sketch.ScenesLists[Sketch.SceneToRun].Draw()
+  Scenography.ScenesLists[Scenography.SceneToRun].Draw()
 end
+
