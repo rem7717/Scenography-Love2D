@@ -49,6 +49,22 @@ function Scene0.Load()
   testCamera.isFollowingObject = false
   
   --]]
+  
+  obj1 = Scenography.Object.new()
+  
+  obj1.Tag:add("Objet1")
+  
+  
+  obj2 = Scenography.Object.new()
+  obj2.Tag:add("Objet2")
+
+  print(obj1.Tag["Objet1"])
+  print(obj1.Tag["Objet2"])
+  print(obj2.Tag["Objet1"])
+  print(obj2.Tag["Objet2"])
+
+
+
 end
 
 function Scene0.Update()
