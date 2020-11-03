@@ -1,4 +1,4 @@
-local Scenography = require("Scenography")
+local Scenography = require("libs/Scenography/Scenography")
 
 function love.load()
   Scenography.LoadNewScene(Scenography.SceneToRun)

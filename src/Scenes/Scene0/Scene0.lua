@@ -1,4 +1,4 @@
-local Scenography = require("Scenography")
+local Scenography = require("libs/Scenography/Scenography")
 local Scene0 = {}
 
 --// Global Variable's declaration (available in all scene)
@@ -62,9 +62,6 @@ function Scene0.Load()
   print(obj1.Tag["Objet2"])
   print(obj2.Tag["Objet1"])
   print(obj2.Tag["Objet2"])
-
-
-
 end
 
 function Scene0.Update()
