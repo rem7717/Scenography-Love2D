@@ -2,31 +2,19 @@
 Scenography is a library (A Lua Module) that allows using Scene and various utilities with the LÖVE framework.
 
 ---
-## How to setup the project?
-1. You need to setup the files and the directory in your project like this (or clone/download the project):
-  ```
-  |-> Scenes
-    |-> Scene0
-      - Scene0.lua
-      - (Assets for the Scene)
-    |-> SceneName
-      - SceneName.lua
-      - (Assets for the Scene)
-    |-> (Others Scene...)
-      - ...
-      - ...
-  - main.lua
-  - Scenography.lua
-  - Camera.lua
-  - GameObject.lua
-  - PhysicsWorld.lua (this file is useless for the moment)
-  ```
-2. You need to use the ```main.lua``` files and the others ```.lua``` files include in the project (because Scenography is just using various Lua Module)
-    
-3. Use the existing structures for all the Scene's ```.lua``` files.
+## How to use it ?
+1. You should start by downloading/cloning/etc this repo
+2. This repo is now ready to be used as a project folder
+3. the Scene's file are in the `src/` folder of the project, and each scene have his own folder (the name of the folder IS THE SAME as the name of the scene's file)
+4. The documentation and various examples of a Scene's file is in the Scene0.lua's file, so you should check it out first.
+5. all your assets should preferably be put in the rsrc's folder, according of the type (ex: assets, shader, sounds, etc). 
+6. That's it! It should works properly in a small LÖVE 2D project :thumbsup:.
+
+### Structure of a Scene's file
+- Use this following structure:
   ```lua
   local Scene1 = {}   
-  local Scenography = require("Scenography")
+  local Scenography = require("libs/Scenography/Scenography")
 
   function Scene1.Load()
     -- Put some code here...
@@ -44,10 +32,9 @@ Scenography is a library (A Lua Module) that allows using Scene and various util
   ```
   > **notes:** The Scene's name can be anything that you want, but it should be the same as the scene folder's name and Scene file's name.
 
-4. That's it! It should works properly in a small LÖVE 2D project :thumbsup:.
 
 #### How to use the other utilities?
-The documentation is in the [```Scene0.lua's file```](https://github.com/rem7717/Scenography-Love2D/blob/master/Scenes/Scene0/Scene0.lua) (it contains various example, and its the default's starting scene in Scenography) 
+The documentation is in the [```Scene0.lua's file```](https://github.com/rem7717/Scenography-Love2D/blob/master/src/Scenes/Scene0/Scene0.lua) (it contains various example, and its the default's starting scene in Scenography) 
 
 ---
 
