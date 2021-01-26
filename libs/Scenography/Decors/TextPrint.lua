@@ -1,0 +1,3 @@
+local textPrint = {}
+
+return textPrint

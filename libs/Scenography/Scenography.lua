@@ -9,8 +9,8 @@ Scenography.Object = require("libs/Scenography/GameObjects/GameObject")
 Scenography.Camera = {}
 Scenography.Camera = require("libs/Scenography/Camera/Camera")
 
-Scenography.Layout = {}
-Scenography.Layout = require("libs/Scenography/Decors/Layout")
+Scenography.Container = {}
+Scenography.Container = require("libs/Scenography/Decors/Container")
 
 
 function Scenography.LoadNewScene(p_SceneName)
